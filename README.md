@@ -49,7 +49,7 @@ Analyze the PyBer rides to compute the Fare data by week and breakdown it by cit
 |2019-04-28|191.85|1357.75|2238.29  
  
 Fare Data by week plot is in the Analysis folder FareData_Month.png
-![](analysis\FareDate_Month.png)
+![](/analysis\FareDate_Month.png)
 ### Summary
 Fares from Urban  > Fars from Suburban > Fares from Rural for all weeks. 
    -Also Urban is approximately twice Surburban and Suburban is 3 to 10 times Rural. The swings are similar till 
