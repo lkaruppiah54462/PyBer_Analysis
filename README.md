@@ -1,10 +1,8 @@
 # PyBer_Analysis
-
 ## Backgound and Purpose
 Analyse the PyBer ride sahring data using PAndas and matplotlib to viualize the analysis, inferfrom the data and
 make recommendation.Creating visualizations of rideshare data for PyBer to help improve access to ride-sharing services 
 and determine affordability for underserved neighborhoods.
-
 **Module exercises**
 1. Rural area , average fare per ride is higher than suburban and suburban is higher than urban
 2. A expected the number of rides in rural is much less than suburban , which is less than rural
@@ -15,7 +13,6 @@ and determine affordability for underserved neighborhoods.
 ### Purpose
 creating a summary DataFrame of the key metrics for the ride-sharing data by city type; 
 creating a multiple-line graph that shows the total fares for each week by each city type and future recommendation
- 
 **A : 1st**
 ### Technical Analysis
 Analyze the PyBer rides to compute the Fare data by week and breakdown it by city type.
@@ -28,7 +25,6 @@ Analyze the PyBer rides to compute the Fare data by week and breakdown it by cit
    - Plotted using matplotlib line plots for all the city types.
    - Also used mdates to set xaxis major locator to months. (mdates.Monthlocator())
 ### Results
-
 *Weekly Fare Dataframe by City Type*
 !
 |City Type  |**Rural**|**Suburban**|**Urban**|
@@ -53,7 +49,7 @@ Analyze the PyBer rides to compute the Fare data by week and breakdown it by cit
 |2019-04-28|191.85|1357.75|2238.29  
  
 Fare Data by week plot is in the Analysis folder FareData_Month.png
-!(/analysis/FareDate_Month.png)
+!(analysis/FareDate_Month.png)
 ### Summary
 Fares from Urban  > Fars from Suburban > Fares from Rural for all weeks. 
    -Also Urban is approximately twice Surburban and Suburban is 3 to 10 times Rural. The swings are similar till 
