@@ -49,7 +49,7 @@ Analyze the PyBer rides to compute the Fare data by week and breakdown it by cit
 |2019-04-28|191.85|1357.75|2238.29  
  
 Fare Data by week plot is in the Analysis folder FareData_Month.png
-![](analysis/FareDate_Month.png)
+![](analysis\FareDate_Month.png)
 ### Summary
 Fares from Urban  > Fars from Suburban > Fares from Rural for all weeks. 
    -Also Urban is approximately twice Surburban and Suburban is 3 to 10 times Rural. The swings are similar till 
@@ -75,6 +75,6 @@ Fares from Urban  > Fars from Suburban > Fares from Rural for all weeks.
 1. Rides by city type and by driver count. It may  highlight the shortages of drivers and certain city type/cities
 2. Also may be worthwhile to do analysis by weekday/weekend and also by time periods in the day to get ride_count by city type and weekday/weekend, 
    and ride_count by time of th e day ( like 7-9, 11-1, 4-6 etc).
-## Addional Analysis 2
+### Addional Analysis 2
 1. Time stamp is available in the current data set.That could be used for time group analysis. Also weekday / weekend could be determined with 
    current date input for weekda/weekend analysis.
