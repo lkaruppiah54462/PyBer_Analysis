@@ -17,9 +17,7 @@ creating a summary DataFrame of the key metrics for the ride-sharing data by cit
 creating a multiple-line graph that shows the total fares for each week by each city type and future recommendation
  
 **A : 1st**
-
 ### Technical Analysis
-
 Analyze the PyBer rides to compute the Fare data by week and breakdown it by city type.
    - Filtered the dataframe with relevant columns of interest
    {'city':'City', 'date':'Date','fare':'Fare', 'ride_id': 'Ride Id','driver_count': 'No. Drivers', 'type':'City Type'}
@@ -55,9 +53,8 @@ Analyze the PyBer rides to compute the Fare data by week and breakdown it by cit
 |2019-04-28|191.85|1357.75|2238.29  
  
 Fare Data by week plot is in the Analysis folder FareData_Month.png
-[GitHub Logo](/analysis/FareDate_Month.png)
+!(/analysis/FareDate_Month.png)
 ### Summary
-
 Fares from Urban  > Fars from Suburban > Fares from Rural for all weeks. 
    -Also Urban is approximately twice Surburban and Suburban is 3 to 10 times Rural. The swings are similar till 
    the month of April, when we see an upward trend in Surburban and levelling off /slight decline for both Urban and Rural
@@ -65,7 +62,6 @@ Fares from Urban  > Fars from Suburban > Fares from Rural for all weeks.
 
 
 **B : 2nd**
-
 ## Challenges Encountered and Overcome
 1. Need to get the date to datetime format. It looks like datetime initially, but internally  it has to converted.
    For resample (grouping by weeks, months etc) , datetime fromat is necessary.
@@ -74,7 +70,6 @@ Fares from Urban  > Fars from Suburban > Fares from Rural for all weeks.
 2. Google to find out solutions for monthlocator etc and to set major_locator to months.
 
 **C : 3rd**
-
 ## Recommendations and Next Steps
 1. Urban city type is an important major revenue generator and recommend expanding to get additional revenues, 
    though the fare per ride is less than the others
